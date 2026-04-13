@@ -1,0 +1,17 @@
+# Environment files — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if adding any scripts)
+node_modules/
